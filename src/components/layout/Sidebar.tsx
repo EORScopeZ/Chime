@@ -45,13 +45,19 @@ const Sidebar = () => {
       <div className="flex flex-col h-full">
         {/* Logo */}
         <div className="p-6">
-          <div className="flex items-center">
-            <div className="h-10 w-10 rounded-md bg-neon-blue/20 flex items-center justify-center shadow-neon">
-              <ChartPieIcon className="h-6 w-6 text-neon-blue" />
-            </div>
-            <h1 className="ml-3 text-xl font-bold text-white">Chime</h1>
-          </div>
-        </div>
+  <div className="flex items-center">
+    <div className="h-10 w-10 rounded-md bg-neon-blue/20 flex items-center justify-center shadow-neon">
+      <ChartPieIcon className="h-6 w-6 text-neon-blue" />
+    </div>
+    <button 
+      onClick={() => window.location.href = '/'}
+      className="ml-1.5  text-xl font-bold text-white focus:outline-none"
+    >
+      Chime
+    </button>
+  </div>
+</div>
+
         
         {/* Navigation */}
         <nav className="flex-1 px-3 py-4 space-y-1">

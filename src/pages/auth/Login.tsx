@@ -37,7 +37,7 @@ const Login = () => {
               <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
             </svg>
           </div>
-          <h1 className="text-3xl font-bold text-white">Glow<span className="text-neon-blue">Track</span></h1>
+          <h1 className="text-3xl font-bold text-white">Chime<span className="text-neon-blue">Finance</span></h1>
           <p className="mt-2 text-gray-400">Subscription Management for Teams</p>
         </div>
         

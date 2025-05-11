@@ -23,9 +23,14 @@ const MobileHeader = () => {
               <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
               <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
             </svg>
-          </div>
-          <h1 className="ml-2 text-lg font-bold text-white">Chime</h1>
-        </div>
+            </div>
+  <button 
+    onClick={() => window.location.href = '/'}
+    className="text-xl font-bold text-white focus:outline-none"
+  >
+    Chime
+  </button>
+</div>
         
         <div className="w-8"></div>
       </div>

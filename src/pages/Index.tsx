@@ -31,9 +31,15 @@ const Index = () => {
                 <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
                 <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
               </svg>
-            </div>
-            <h1 className="text-xl font-bold text-white">Chime</h1>
-          </div>
+              </div>
+  <button 
+    onClick={() => window.location.href = '/'}
+    className="text-xl font-bold text-white focus:outline-none"
+  >
+    Chime
+  </button>
+</div>
+
           
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-300 hover:text-neon-blue transition-colors">Features</a>
@@ -101,7 +107,7 @@ const Index = () => {
           {/* Dashboard preview */}
           <div className="relative animate-float bg-dark-elevated p-4 rounded-xl border border-neon-blue/30 shadow-neon">
             <img 
-              src="/dashboard-preview.png" 
+              src="/public/Dashboard.png" 
               alt="Chime Dashboard" 
               className="w-full rounded-lg shadow-lg"
               onError={(e) => {
